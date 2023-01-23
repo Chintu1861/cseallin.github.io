@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cseallin</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png" width="40px"></a>
+            <div class="nav-links id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="notes.html">NOTES</a></li>
+                    <li><a href="contactus.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>    
+        <h1>All Latest Internship & Courses </h1>  
+
+    </section>
+    <!--   Blog   page    Content  ..................  -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="image/Blog1.jpg" alt="">
+                <h2>Our Courses & Internship Programs</h2>
+                <p>It is safe to say that today there’s a plethora of online certification courses in 
+                    almost every specialisation or domain. From digital marketing to data science, you are 
+                    sure to find an online program to match your career aspirations. Just make sure you choose 
+                    a course that aligns perfectly with your interests and career goals. <br><br>
+                    That’s why we’re proud to announce the launch of our all-new collection of free courses with 
+                    certificates*, now open for enrolment as of May 2022. There’s never been a better time to 
+                    work on your CV and your career prospects, studying from home at 
+                    a time and pace to suit your lifestyle</p>
+                <br>
+
+                <p>The COVID-19 pandemic has changed many aspects of our lives. One such aspect is how we deliver and receive an education. 
+
+                    With physical classroom courses being on hold since 2022, online courses have become increasingly popular
+                     recently as they allow you to learn new skills and enhance your resume from the safety of your home.
+                      Moreover, you can continue your education without interrupting your professional life.</p>
+
+                <br>
+                
+                <p>The demand for management professionals in almost every sector is evergreen. No matter what industry
+                     a company operates in, it relies on managers to oversee its daily processes and advance its growth. 
+
+                    Getting an MBA will make you eligible for senior and leadership roles in various industries.
+                     You get to specialise in a particular area of management, thereby increasing your chances of 
+                     bagging a niche role in a company.</p>
+                     <br>
+            
+                     
+            <div class="comment-box">
+                <h3>Leave a comment </h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Mail"><br>
+                    <input type="text" placeholder="College Name">
+                    <textarea rows="5" placeholder="Your comment">
+
+                    </textarea>
+                    <button type="submit" class="hero-btn red-btn">POST YOUR COMMENT</button>
+                    
+
+                </form>
+
+            </div> 
+            
+            
+            </div>
+            <div class="blog-right">
+            <h3>Post Categories</h3>
+
+            <div>
+                <span>Data science</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Machine learning</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Python programming</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Java programming</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Computer Fundamentals</span>
+                <span>21</span>
+            </div>
+        </div>
+
+    </section>
+    
+
+
+
+    <!--  Youtube video pages   content      . . . . . . . .  -->
+
+
+
+
+
+<!-- F oo  t   e  r . . . . . . . . . .. . . . . . . .  -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Software Engineer with excellent problem-solving skills and ability to perform well in a team. <br> Passionate about coding and 
+        online teaching student how to code efficiently from last 2 year</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-youtube"></i>
+        <i class="fa fa-telegram"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> By Cse Gyan Yt channel</p>
+</section>
+
+
+
+
+
+<!-- java Script for Toggle Menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+</script>    
+    
+
+</body>
+</html>
